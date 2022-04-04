@@ -6,34 +6,34 @@
 # asciiz директива используется дял размещения строк
 # asciiz автоматически добавит нулевой символ в конец строки
 # FIXME исправьте строки, чтобы они выдавали корректные отладочные значения 
-case1:   .asciiz "f(x) should be y, and it is: "
-case2:   .asciiz "f(x) should be y, and it is: "
-case3:   .asciiz "f(x) should be y, and it is: "
-case4:   .asciiz "f(x) should be y, and it is: "
-case5:   .asciiz "f(x) should be y, and it is: "
-case6:   .asciiz "f(x) should be y, and it is: "
-case7:   .asciiz "f(x) should be y, and it is: "
+case1:   .asciiz "f(-2) should be 23, and it is: "
+case2:   .asciiz "f(-1) should be 39, and it is: "
+case3:   .asciiz "f(0) should be 1, and it is: "
+case4:   .asciiz "f(1) should be 4, and it is: "
+case5:   .asciiz "f(2) should be 36, and it is: "
+case6:   .asciiz "f(3) should be 24, and it is: "
+case7:   .asciiz "f(4) should be 26, and it is: "
 
 # FIXME Разместите значения из вашего варианта в этом массиве 
-output: .word   1, 2, 3, 4, 5, 6, 7
+output: .word   23, 39, 1, 4, 36, 24, 26
 
 .text
 main:
 	######### перебор случаев, случай 1 (case1) #########
     # загружаем адрес строки case1 в a0
     # это послужит аргументом функции print_str
-    la a0, case1 
+    la a0, case1
     # Выводим строку по адресу case1
     jal print_str 
     # Загружаем первый аргумент функции f в a0
     # FIXME Подставьте первый аргумент case1
-    li a0, -3 
+    li a0, -2
     # загружаем второй аргумент функции f в a1
     # `output` -- это указатель на массив, который содержит возможные выходные значения f
     la a1, output
     # выполняем f(case1)
     jal f     
-    # f вернет результат f(-3) в регистре a0
+    # f вернет результат f(-2) в регистре a0
     # чтобы отобразить это значение мы вызовем print_int
     # print_int ожидает значение аргумента в регистре a0
     # значение уже находится в a0, не требуется перемещений
@@ -45,7 +45,7 @@ main:
     la a0, case2
     jal print_str
     # FIXME Подставьте первый аргумент case1
-    li a0, -2
+    li a0, -1
     la a1, output
     jal f                
     jal print_int
@@ -55,7 +55,7 @@ main:
     la a0, case3
     jal print_str
     # FIXME Подставьте первый аргумент case1
-    li a0, -1
+    li a0, 0
     la a1, output
     jal f               
     jal print_int
@@ -65,7 +65,7 @@ main:
     la a0, case4
     jal print_str
     # FIXME Подставьте первый аргумент case1
-    li a0, 0
+    li a0, 1
     la a1, output
     jal f               
     jal print_int
@@ -75,7 +75,7 @@ main:
     la a0, case5
     jal print_str
     # FIXME Подставьте первый аргумент case1
-    li a0, 1
+    li a0, 2
     la a1, output
     jal f                
     jal print_int
@@ -85,7 +85,7 @@ main:
     la a0, case6
     jal print_str
     # FIXME Подставьте первый аргумент case1
-    li a0, 2
+    li a0, 3
     la a1, output
     jal f               
     jal print_int
@@ -95,7 +95,7 @@ main:
     la a0, case7
     jal print_str
     # FIXME Подставьте первый аргумент case1
-    li a0, 3
+    li a0, 500
     la a1, output
     jal f                
     jal print_int
@@ -109,9 +109,15 @@ main:
 # a0 значение для которого мы хотим вычислить функцию f
 # a1 адрес выходного ("output") массива, содержащего все допустимые варианты.
 f:
-    # FIXME
-    # YOUR CODE GOES HERE!
-
+    # теперь началом координат массива считается число 1 и теперь можно добавлять отрицательное смещение
+	addi a1, a1, 8
+    lw a2,0(a1)
+    
+    slli t2, a0, 2
+    add t2, t2, a1
+    lw a0,0(t2) #получаю нужный ответ
+    
+    
     jr ra               # Всегда вызывайте jr ra для выхода из функции!
 
 # печатает одно целое число
