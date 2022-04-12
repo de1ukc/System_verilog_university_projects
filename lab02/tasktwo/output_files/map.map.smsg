@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at map.sv(21): always construct contains both blocking and non-blocking assignments File: /home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo/map.sv Line: 21

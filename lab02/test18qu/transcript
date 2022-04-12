@@ -1,0 +1,761 @@
+# Loading project Thunderbird_test
+# reading /home/de1ukc/intelFPGA_lite/20.1_may_be_final/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project My_game
+# Compile of map.sv failed with 1 errors.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim AlehsGame.testbench
+# vsim AlehsGame.testbench 
+# Start time: 20:39:05 on Apr 11,2022
+# Loading sv_std.std
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 200
+# Error: inputs = 0001
+#  outputs = 0 0 0 1 (0 0 expected)
+# DIE
+# Error: inputs = 0100
+#  outputs = 0 1 0 0 (0 0 expected)
+# DIE
+# Error: inputs = 0010
+#  outputs = 0 0 1 0 (0 0 expected)
+# DIE
+# Error: inputs = 0001
+#  outputs = 0 0 0 1 (0 0 expected)
+# DIE
+# Error: inputs = 0001
+#  outputs = 0 0 0 1 (0 0 expected)
+# DIE
+# Error: inputs = 0000
+#  outputs = 0 0 0 0 (1 0 expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+run 300
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 300
+# Error: inputs = 0001
+#  outputs = 0 0 0 1 (0 0 expected)
+# DIE
+# Error: inputs = 0100
+#  outputs = 0 1 0 0 (0 0 expected)
+# DIE
+# Error: inputs = 0010
+#  outputs = 0 0 1 0 (0 0 expected)
+# DIE
+# Error: inputs = 0001
+#  outputs = 0 0 0 1 (0 0 expected)
+# DIE
+# Error: inputs = 0001
+#  outputs = 0 0 0 1 (0 0 expected)
+# DIE
+# Error: inputs = 0000
+#  outputs = 0 0 0 0 (1 0 expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 200
+# DIE
+# DIE
+# DIE
+# DIE
+# DIE
+# Error: inputs = 0000
+#  outputs = 0 0 0 0 (1 0 expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+restart
+run 40
+# DIE
+# DIE
+restart
+run 30
+# DIE
+add wave  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/W \
+sim:/testbench/S \
+sim:/testbench/A \
+sim:/testbench/D \
+sim:/testbench/WIN \
+sim:/testbench/DIE \
+sim:/testbench/WIN_exp \
+sim:/testbench/DIE_exp \
+sim:/testbench/expected \
+sim:/testbench/vectornum \
+sim:/testbench/errors \
+sim:/testbench/testvectors
+restart
+run 40
+# DIE
+# DIE
+
+restart
+run 500
+# DIE
+# DIE
+# DIE
+# DIE
+# DIE
+# Error: inputs = 0000
+#  outputs = 0 0 0 0 (1 0 expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 200
+# DIE
+# DIE
+# DIE
+# DIE
+# DIE
+# Error: inputs = 0000
+#  outputs = 0 0 0 0 (1 0 expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run 200
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 20
+run 10
+# DIE
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 100
+# Error: inputs = 0000
+#  outputs = 0 0 0 0 (1 0 expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+restart
+run 80
+# Error: inputs = 0000
+#  outputs = 0 0 0 0 (1 0 expected)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run80
+# invalid command name "run80"
+run 80
+# Error: inputs = 0000
+#  outputs = 0 0 0 0 (1 0 expected)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run 80
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+# Error: inputs = xxxx
+#  outputs = x x x x (x x expected)
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run 80
+# Error: inputs = 0000
+#  outputs = 0 0 0 0 (1 0 expected)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 80
+# Error: inputs = 000010
+#  outputs = (1 0 expected)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv failed with 5 errors.
+# 2 compiles, 1 failed with 5 errors.
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv failed with 5 errors.
+# 2 compiles, 1 failed with 5 errors.
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv failed with 5 errors.
+# 2 compiles, 1 failed with 5 errors.
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+# ** Error (suppressible): (vsim-PLI-3071) $display : Too few arguments.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: /home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo/testbench_game.sv Line: 35
+# ** Error (suppressible): (vsim-PLI-3071) $display : Too few arguments.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: /home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo/testbench_game.sv Line: 36
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+vsim AlehsGame.testbench
+# vsim AlehsGame.testbench 
+# Start time: 20:39:05 on Apr 11,2022
+# Loading sv_std.std
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 80
+# Error: inputs = 0 0 0 0 (1 0 expected)
+#  outputs = (0 0 expected)
+add wave  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/W \
+sim:/testbench/S \
+sim:/testbench/A \
+sim:/testbench/D \
+sim:/testbench/WIN \
+sim:/testbench/DIE \
+sim:/testbench/WIN_exp \
+sim:/testbench/DIE_exp \
+sim:/testbench/expected \
+sim:/testbench/vectornum \
+sim:/testbench/errors \
+sim:/testbench/testvectors
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 80
+# Error: inputs = 0 0 0 0 (1 0 expected)
+#  outputs = (0 0 expected)
+run 10
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0 expected)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 80
+# Error: inputs = 0 0 0 0 (1 0 expected)
+#  outputs = (0 0)
+run 90
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+restart
+run 90
+# Error: inputs = 0 0 0 0 (1 0 expected)
+#  outputs = (0 0)
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 80
+run 10
+run 10
+# Error: inputs = 0 0 0 0 (1 0 expected)
+#  outputs = (0 0)
+run 10
+run 10
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 80
+# Error: inputs = 0 0 0 0 (1 0 expected)
+#  outputs = (0 0)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 80
+# Error: inputs = 0 0 0 0 (1 0 expected)
+#  outputs = (0 0)
+run 10
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 100
+# Error: inputs = x x x x (x x expected)
+#  outputs = (0 0)
+# Error: inputs = x x x x (x x expected)
+#  outputs = (0 0)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 100
+run 10
+run 10
+# Error: inputs = 0 0 0 1 (0 0 expected)
+#  outputs = (1 0)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 100
+# Error: inputs = 0 0 0 0 (1 0 expected)
+#  outputs = (0 0)
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 80
+run 10
+# Error: inputs = 0 0 0 0 (1 0 expected)
+#  outputs = (0 0)
+run 10
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 80
+# Error: inputs = 0 0 0 0 (1 0 expected)
+#  outputs = (0 0)
+run 5
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 80
+run 5
+# Error: inputs = 0 0 0 0 (1 0 expected)
+#  outputs = (0 0)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 80
+# Error: inputs = 0 0 0 0 (1 0 expected)
+#  outputs = (0 0)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run
+# Error: inputs = 0 0 0 0 (1 0 expected)
+#  outputs = (0 0)
+# Error: inputs = x x x x (x x expected)
+#  outputs = (1 0)
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 80
+run 10
+# WIN
+# Compile of map.sv was successful.
+# Compile of testbench_game.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading AlehsGame.testbench
+# Loading AlehsGame.map
+run 50
+run 10
+# DIE
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo/wave.do
+# End time: 21:33:57 on Apr 11,2022, Elapsed time: 0:54:52
+# Errors: 0, Warnings: 2

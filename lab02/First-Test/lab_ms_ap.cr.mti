@@ -1,0 +1,21 @@
+{/home/de1ukc/Programming/GitReps/AVL/lab02/First-Test/ fulladder.sv} {1 {vlog -work work -sv -stats=none {/home/de1ukc/Programming/GitReps/AVL/lab02/First-Test/ fulladder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} /home/de1ukc/Programming/GitReps/AVL/lab02/First-Test/testbench.sv {2 {vlog -work work -sv -stats=none /home/de1ukc/Programming/GitReps/AVL/lab02/First-Test/testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+** Warning: /home/de1ukc/Programming/GitReps/AVL/lab02/First-Test/testbench.sv(111): (vlog-2275) Existing module 'testbench' will be overwritten.
+-- Compiling module testbench
+** Warning: /home/de1ukc/Programming/GitReps/AVL/lab02/First-Test/testbench.sv(220): (vlog-2275) Existing module 'testbench' will be overwritten.
+-- Compiling module testbench
+** Warning: /home/de1ukc/Programming/GitReps/AVL/lab02/First-Test/testbench.sv(329): (vlog-2275) Existing module 'testbench' will be overwritten.
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

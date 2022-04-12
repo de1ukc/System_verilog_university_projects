@@ -1,0 +1,11 @@
+
+State Machine - |map|state
+Name state.Loose state.Victory state.necropolis state.Dragon state.the_sword_cache state.river state.tunnel state.cave 
+state.cave 0 0 0 0 0 0 0 0 
+state.tunnel 0 0 0 0 0 0 1 1 
+state.river 0 0 0 0 0 1 0 1 
+state.the_sword_cache 0 0 0 0 1 0 0 1 
+state.Dragon 0 0 0 1 0 0 0 1 
+state.necropolis 0 0 1 0 0 0 0 1 
+state.Victory 0 1 0 0 0 0 0 1 
+state.Loose 1 0 0 0 0 0 0 1 

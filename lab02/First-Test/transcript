@@ -1,0 +1,229 @@
+# Loading project lab_ms_ap
+# reading /home/de1ukc/intelFPGA_lite/20.1_may_be_final/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project Thunderbird_test
+# Compile of lab2_01.sv was successful.
+# Compile of testbench_thunderbird.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim Thunderbird_lights.testbench
+# vsim Thunderbird_lights.testbench 
+# Start time: 20:03:05 on Apr 05,2022
+# Loading sv_std.std
+# Loading Thunderbird_lights.testbench
+# ** Error: (vsim-3033) Instantiation of 'lab2_xx' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv Line: 9
+#         Searched libraries:
+#             /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/Thunderbird_lights
+# Error loading design
+# End time: 20:03:05 on Apr 05,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 5
+vsim Thunderbird_lights.testbench
+# vsim Thunderbird_lights.testbench 
+# Start time: 20:04:00 on Apr 05,2022
+# Loading sv_std.std
+# Loading Thunderbird_lights.testbench
+# ** Error: (vsim-3033) Instantiation of 'lab2_xx' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv Line: 9
+#         Searched libraries:
+#             /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/Thunderbird_lights
+# Error loading design
+# End time: 20:04:00 on Apr 05,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of lab2_01.sv was successful.
+# Compile of testbench_thunderbird.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim Thunderbird_lights.lab2_01
+# vsim Thunderbird_lights.lab2_01 
+# Start time: 20:05:08 on Apr 05,2022
+# Loading sv_std.std
+# Loading Thunderbird_lights.lab2_01
+add wave  \
+sim:/lab2_01/clk \
+sim:/lab2_01/reset \
+sim:/lab2_01/left \
+sim:/lab2_01/right \
+sim:/lab2_01/la \
+sim:/lab2_01/lb \
+sim:/lab2_01/lc \
+sim:/lab2_01/ra \
+sim:/lab2_01/rb \
+sim:/lab2_01/rc \
+sim:/lab2_01/state \
+sim:/lab2_01/nextstate
+run 200
+run 20
+run 2000
+clear
+# [H[2J[3J
+view source
+# .main_pane.source.interior.cs.body.srcobj
+vsim Thunderbird_lights.testbench
+# End time: 20:07:31 on Apr 05,2022, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 2
+# vsim Thunderbird_lights.testbench 
+# Start time: 20:07:31 on Apr 05,2022
+# Loading sv_std.std
+# Loading Thunderbird_lights.testbench
+# ** Error: (vsim-3033) Instantiation of 'lab2_xx' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv Line: 9
+#         Searched libraries:
+#             /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/Thunderbird_lights
+# Error loading design
+# End time: 20:07:31 on Apr 05,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of lab2_01.sv was successful.
+# Compile of testbench_thunderbird.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim Thunderbird_lights.testbench
+# vsim Thunderbird_lights.testbench 
+# Start time: 20:09:36 on Apr 05,2022
+# Loading sv_std.std
+# Loading Thunderbird_lights.testbench
+# Loading Thunderbird_lights.lab2_01
+add wave  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/left \
+sim:/testbench/right \
+sim:/testbench/la \
+sim:/testbench/lb \
+sim:/testbench/lc \
+sim:/testbench/ra \
+sim:/testbench/rb \
+sim:/testbench/rc \
+sim:/testbench/expected \
+sim:/testbench/vectornum \
+sim:/testbench/errors \
+sim:/testbench/testvectors
+run 200
+# Error: inputs = 10
+#  outputs = 0 1 0 0 0 0 (110000 expected)
+# Error: inputs = 10
+#  outputs = 0 0 1 0 0 0 (111000 expected)
+# Error: inputs = 00
+#  outputs = 0 1 0 0 0 0 (110000 expected)
+# Error: inputs = 01
+#  outputs = 0 0 1 0 0 0 (111000 expected)
+# Error: inputs = 00
+#  outputs = 0 0 0 0 1 0 (000110 expected)
+# Error: inputs = 00
+#  outputs = 0 0 0 0 0 1 (000111 expected)
+#         14 tests completed with          6 errors
+# ** Note: $stop    : /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv(42)
+#    Time: 155 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv line 42
+run 200
+# Error: inputs = xx
+#  outputs = 0 0 0 0 0 0 (xxxxxx expected)
+#         15 tests completed with          7 errors
+# ** Note: $stop    : /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv(42)
+#    Time: 165 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv line 42
+run 200
+# Error: inputs = xx
+#  outputs = 0 0 0 0 0 0 (xxxxxx expected)
+#         16 tests completed with          8 errors
+# ** Note: $stop    : /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv(42)
+#    Time: 175 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv line 42
+# Compile of lab2_01.sv was successful.
+# Compile of testbench_thunderbird.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim Thunderbird_lights.testbench
+# End time: 20:54:50 on Apr 05,2022, Elapsed time: 0:45:14
+# Errors: 0, Warnings: 3
+# vsim Thunderbird_lights.testbench 
+# Start time: 20:54:50 on Apr 05,2022
+# Loading sv_std.std
+# Loading Thunderbird_lights.testbench
+# Loading Thunderbird_lights.lab2_01
+run 100
+# Error: inputs = 10
+#  outputs = x x x x x x (000000 expected)
+# Error: inputs = 10
+#  outputs = 0 0 0 0 0 0 (100000 expected)
+# Error: inputs = 10
+#  outputs = 1 0 0 0 0 0 (110000 expected)
+# Error: inputs = 10
+#  outputs = 0 1 0 0 0 0 (111000 expected)
+# Error: inputs = 10
+#  outputs = 0 0 1 0 0 0 (000000 expected)
+# Error: inputs = 10
+#  outputs = 0 0 0 0 0 0 (100000 expected)
+# Error: inputs = 00
+#  outputs = 1 0 0 0 0 0 (110000 expected)
+run 100
+# Error: inputs = 01
+#  outputs = 0 1 0 0 0 0 (111000 expected)
+# Error: inputs = 01
+#  outputs = 0 0 1 0 0 0 (000000 expected)
+# Error: inputs = 01
+#  outputs = 0 0 0 0 0 0 (000100 expected)
+# Error: inputs = 00
+#  outputs = 0 0 0 1 0 0 (000110 expected)
+# Error: inputs = 00
+#  outputs = 0 0 0 0 1 0 (000111 expected)
+# Error: inputs = 00
+#  outputs = 0 0 0 0 0 1 (000000 expected)
+#         14 tests completed with         13 errors
+# ** Note: $stop    : /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv(42)
+#    Time: 155 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv line 42
+# Compile of lab2_01.sv was successful.
+# Compile of testbench_thunderbird.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim Thunderbird_lights.testbench
+# End time: 21:06:01 on Apr 05,2022, Elapsed time: 0:11:11
+# Errors: 0, Warnings: 2
+# vsim Thunderbird_lights.testbench 
+# Start time: 21:06:01 on Apr 05,2022
+# Loading sv_std.std
+# Loading Thunderbird_lights.testbench
+# Loading Thunderbird_lights.lab2_01
+ run 200
+# Error: inputs = 10
+#  outputs = x x x x x x (000000 expected)
+# Error: inputs = 10
+#  outputs = 0 0 0 0 0 0 (100000 expected)
+# Error: inputs = 10
+#  outputs = 1 0 0 0 0 0 (110000 expected)
+# Error: inputs = 10
+#  outputs = 1 1 0 0 0 0 (111000 expected)
+# Error: inputs = 10
+#  outputs = 1 1 1 0 0 0 (000000 expected)
+# Error: inputs = 10
+#  outputs = 0 0 0 0 0 0 (100000 expected)
+# Error: inputs = 00
+#  outputs = 1 0 0 0 0 0 (110000 expected)
+# Error: inputs = 01
+#  outputs = 1 1 0 0 0 0 (111000 expected)
+# Error: inputs = 01
+#  outputs = 1 1 1 0 0 0 (000000 expected)
+# Error: inputs = 01
+#  outputs = 0 0 0 0 0 0 (000100 expected)
+# Error: inputs = 00
+#  outputs = 0 0 0 1 0 0 (000110 expected)
+# Error: inputs = 00
+#  outputs = 0 0 0 1 1 0 (000111 expected)
+# Error: inputs = 00
+#  outputs = 0 0 0 1 1 1 (000000 expected)
+#         14 tests completed with         13 errors
+# ** Note: $stop    : /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv(42)
+#    Time: 155 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv line 42
+run 300
+# Error: inputs = xx
+#  outputs = 0 0 0 0 0 0 (xxxxxx expected)
+#         15 tests completed with         14 errors
+# ** Note: $stop    : /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv(42)
+#    Time: 165 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv line 42
+run 300
+# Error: inputs = xx
+#  outputs = 0 0 0 0 0 0 (xxxxxx expected)
+#         16 tests completed with         15 errors
+# ** Note: $stop    : /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv(42)
+#    Time: 175 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv line 42
+quit
+# End time: 21:06:35 on Apr 05,2022, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 1

@@ -1,0 +1,14 @@
+module map(input logic clk,
+           input logic reset,
+			  input logic W, S, A, D
+			  output logic WIN, DIE);
+			  
+typedef enum logic [4:0] {cave, tunnel, river, the_sword_cache, Dragon, necropolis, Victory} statetype;
+statetype state, nexststate;
+
+logic has_a_sword;
+logic is_alive;
+
+always_ff @(posedge clk, posedge reset)
+  if(reset) state <= cave; has_a_sword = false;  // перезапуск игры с началом в пещере
+  else state <= nextstate;

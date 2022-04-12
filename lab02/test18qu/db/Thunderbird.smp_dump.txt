@@ -1,0 +1,10 @@
+
+State Machine - |lab2_01|state
+Name state.L3 state.L2 state.L1 state.R3 state.R2 state.R1 state.N0 
+state.N0 0 0 0 0 0 0 0 
+state.R1 0 0 0 0 0 1 1 
+state.R2 0 0 0 0 1 0 1 
+state.R3 0 0 0 1 0 0 1 
+state.L1 0 0 1 0 0 0 1 
+state.L2 0 1 0 0 0 0 1 
+state.L3 1 0 0 0 0 0 1 

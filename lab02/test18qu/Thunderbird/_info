@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo
+vlab2_01
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1649703184
+!i10b 1
+!s100 6=lH7ocZ[fT>GL8c5P8081
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_begJhO<S8Gnzie>;5GN;3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 d/home/de1ukc/Programming/GitReps/AVL/lab02/test18qu
+w1649702849
+8/home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/lab2_01.sv
+F/home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/lab2_01.sv
+!i122 0
+L0 1 39
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1649703184.000000
+!s107 /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/lab2_01.sv|
+!s90 -reportprogress|300|-work|Thunderbird|-sv|-stats=none|/home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/lab2_01.sv|
+!i113 1
+Z7 o-work Thunderbird -sv
+Z8 tCvgOpt 0
+vtestbench
+R0
+R1
+!i10b 1
+!s100 c9=SMCL_7U@TRib:7B`1<1
+R2
+If?:c`N<JckX>nY]UmZ8mi2
+R3
+S1
+R4
+w1649178405
+8/home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv
+F/home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv
+!i122 1
+L0 1 45
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv|
+!s90 -reportprogress|300|-work|Thunderbird|-sv|-stats=none|/home/de1ukc/Programming/GitReps/AVL/lab02/test18qu/testbench_thunderbird.sv|
+!i113 1
+R7
+R8

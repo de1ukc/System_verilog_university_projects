@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/de1ukc/Programming/GitReps/AVL/lab02/test18qu
+vmap
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1649701996
+!i10b 1
+!s100 CS9FfDkz7`822eeB1o<zA3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I^U45OLjfI^3ATSW=RiLiz1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 d/home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo
+w1649701761
+8/home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo/map.sv
+F/home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo/map.sv
+!i122 62
+L0 1 61
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1649701996.000000
+!s107 /home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo/map.sv|
+!s90 -reportprogress|300|-work|AlehsGame|-sv|-stats=none|/home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo/map.sv|
+!i113 1
+Z7 o-work AlehsGame -sv
+Z8 tCvgOpt 0
+vtestbench
+R0
+R1
+!i10b 1
+!s100 V8lAm2R8>?=I6QOc^g5310
+R2
+I9]nGg26P>j36bgh>_zYgg0
+R3
+S1
+R4
+w1649701993
+8/home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo/testbench_game.sv
+F/home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo/testbench_game.sv
+!i122 63
+L0 1 49
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo/testbench_game.sv|
+!s90 -reportprogress|300|-work|AlehsGame|-sv|-stats=none|/home/de1ukc/Programming/GitReps/AVL/lab02/tasktwo/testbench_game.sv|
+!i113 1
+R7
+R8

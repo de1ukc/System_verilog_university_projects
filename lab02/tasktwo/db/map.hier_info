@@ -1,0 +1,24 @@
+|map
+clk => state~1.DATAIN
+reset => state~3.DATAIN
+W => nextstate.Loose.IN0
+S => nextstate.OUTPUTSELECT
+S => nextstate.OUTPUTSELECT
+S => Selector13.IN5
+A => nextstate.Loose.IN1
+A => nextstate.Dragon.OUTPUTSELECT
+A => nextstate.tunnel.OUTPUTSELECT
+A => nextstate.DATAA
+A => Selector11.IN5
+A => nextstate.DATAA
+D => nextstate.Loose.IN1
+D => Selector15.IN6
+D => Selector13.IN6
+D => nextstate.Dragon.DATAA
+D => Selector11.IN2
+D => nextstate.tunnel.DATAA
+D => Selector17.IN4
+WIN <= pobeda.DB_MAX_OUTPUT_PORT_TYPE
+DIE <= <VCC>
+
+

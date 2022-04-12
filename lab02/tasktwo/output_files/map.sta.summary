@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'state.Victory'
+Slack : -5.864
+TNS   : -33.747
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -4.941
+TNS   : -12.074
+
+Type  : Slow 1100mV 85C Model Setup 'A'
+Slack : -3.671
+TNS   : -19.690
+
+Type  : Slow 1100mV 85C Model Setup 'state.Dragon'
+Slack : -3.370
+TNS   : -3.370
+
+Type  : Slow 1100mV 85C Model Hold 'A'
+Slack : -3.096
+TNS   : -6.143
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -2.311
+TNS   : -12.331
+
+Type  : Slow 1100mV 85C Model Hold 'state.Victory'
+Slack : -0.957
+TNS   : -1.856
+
+Type  : Slow 1100mV 85C Model Hold 'state.Dragon'
+Slack : 2.536
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.538
+TNS   : -6.172
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'A'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'state.Victory'
+Slack : 0.282
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'state.Dragon'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'state.Victory'
+Slack : -5.810
+TNS   : -33.793
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -4.610
+TNS   : -10.995
+
+Type  : Slow 1100mV 0C Model Setup 'A'
+Slack : -3.746
+TNS   : -19.794
+
+Type  : Slow 1100mV 0C Model Setup 'state.Dragon'
+Slack : -3.385
+TNS   : -3.385
+
+Type  : Slow 1100mV 0C Model Hold 'A'
+Slack : -3.096
+TNS   : -6.135
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -2.394
+TNS   : -12.765
+
+Type  : Slow 1100mV 0C Model Hold 'state.Victory'
+Slack : -0.948
+TNS   : -1.838
+
+Type  : Slow 1100mV 0C Model Hold 'state.Dragon'
+Slack : 2.509
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.538
+TNS   : -6.305
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'A'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'state.Victory'
+Slack : 0.229
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'state.Dragon'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'state.Victory'
+Slack : -3.263
+TNS   : -15.874
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -2.963
+TNS   : -6.153
+
+Type  : Fast 1100mV 85C Model Setup 'A'
+Slack : -1.564
+TNS   : -7.734
+
+Type  : Fast 1100mV 85C Model Setup 'state.Dragon'
+Slack : -1.460
+TNS   : -1.460
+
+Type  : Fast 1100mV 85C Model Hold 'A'
+Slack : -1.790
+TNS   : -3.564
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -1.352
+TNS   : -7.271
+
+Type  : Fast 1100mV 85C Model Hold 'state.Victory'
+Slack : -0.423
+TNS   : -0.822
+
+Type  : Fast 1100mV 85C Model Hold 'state.Dragon'
+Slack : 1.665
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.089
+TNS   : -0.700
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'A'
+Slack : -0.020
+TNS   : -0.022
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'state.Victory'
+Slack : 0.408
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'state.Dragon'
+Slack : 0.414
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'state.Victory'
+Slack : -3.034
+TNS   : -14.733
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -2.565
+TNS   : -5.402
+
+Type  : Fast 1100mV 0C Model Setup 'state.Dragon'
+Slack : -1.405
+TNS   : -1.405
+
+Type  : Fast 1100mV 0C Model Setup 'A'
+Slack : -1.374
+TNS   : -6.677
+
+Type  : Fast 1100mV 0C Model Hold 'A'
+Slack : -1.780
+TNS   : -3.542
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -1.351
+TNS   : -7.315
+
+Type  : Fast 1100mV 0C Model Hold 'state.Victory'
+Slack : -0.383
+TNS   : -0.744
+
+Type  : Fast 1100mV 0C Model Hold 'state.Dragon'
+Slack : 1.647
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.092
+TNS   : -0.724
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'A'
+Slack : -0.031
+TNS   : -0.041
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'state.Victory'
+Slack : 0.412
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'state.Dragon'
+Slack : 0.429
+TNS   : 0.000
+
+------------------------------------------------------------
